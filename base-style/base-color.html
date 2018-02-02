@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Document</title>
+ <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+ <link rel="stylesheet" href="assets/css/common.css">
+ <link rel="stylesheet" href="assets/css/base.css">
+</head>
+<body>
+  <article class="markdown-section" id="colorPart">
+    <div v-for="base in baseData">
+      <blockquote>
+          <h6><a href="javascript:;" class="anchor"><span>{{base.name}}</span></a></h6>
+      </blockquote>
+      <section v-for="item in base.colorData" class="color-item">
+        <button class="color-style" :class="[item.className]">{{item.color}}</button>
+        <span class="color-desc">{{item.desc}}</span>
+      </section>
+    </div>
+  </article>
+<script src="//unpkg.com/vue"></script>
+<script>
+  new Vue({
+    el:'#colorPart',
+    data: { 
+      baseData:[{
+        name:'主色',
+        colorData:[{
+            color:'#19AA8D',
+            className:'color1',
+            desc:'按钮原始颜色/（输入框、选项框、下拉框等）选中颜色'
+          },{
+            color:'#159379',
+            className:'color2',
+            desc:'按钮鼠标悬停状态颜色'
+          },{
+            color:'#159379',
+            className:'color3',
+            desc:'按钮鼠标按下状态颜色  Inner shadow 1,3 8,0 0.15#000000'
+          },{
+            color:'#19AA8D',
+            className:'color4',
+            desc:'禁用状态 文字0.5透明'
+          },{
+            color:'#E8F7F4',
+            className:'color5',
+            desc:'表格小计背景色'
+          },{
+            color:'#E5E6E7',
+            className:'color6',
+            desc:'输入框边框色'
+          },{
+            color:'#F2F2F2',
+            className:'color7',
+            desc:'表头背景色/选项卡悬停色'
+          },{
+            color:'#233646',
+            className:'color8',
+            desc:'系统左边栏菜单背景色'
+          }
+        ]
+      },{
+        name:'辅色',
+        colorData:[{
+          color:'#F8AC59',
+          className:'color21',
+          desc:'提醒相关色'
+        },{
+          color:'#F59121',
+          className:'color22',
+          desc:'提醒按钮鼠标悬停色'
+        },{
+          color:'#ED5565',
+          className:'color23',
+          desc:'失败、删除、禁止、驳回相关色'
+        },{
+          color:'#23CDCD',
+          className:'color24',
+          desc:'统计报表相关辅助色'
+        }]
+      },{
+        name:'字体颜色',
+        colorData:[{
+          color:'#666666',
+          className:'color31',
+          desc:'输入字体颜色'
+        },{
+          color:'#333333',
+          className:'color32',
+          desc:'提示字体颜色'
+        },{
+          color:'#cccccc',
+          className:'color33',
+          desc:'失败、删除、禁止、驳回相关色'
+        },{
+          color:'#999999',
+          className:'color34',
+          desc:'已读状态字体颜色/默认带出系统数据文字'
+        },{
+          color:'#19AA8D',
+          className:'color35',
+          desc:'未读状态字体颜色，表格表头字体颜色'
+        }]
+      }]
+    }
+  })
+</script>
+</body>
+</html>
