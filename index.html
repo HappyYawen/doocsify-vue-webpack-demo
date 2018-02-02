@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link  rel="stylesheet" href="//unpkg.com/prismjs/themes/prism.css"></link>
+  <link rel="stylesheet" href="assets/css/common.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <!-- <link rel="stylesheet" href="./dist/main.css"> -->
+</head>
+
+<body>
+  <nav>
+    <a href="#/en/">EN</a>
+    <a href="#/">中文</a>
+  </nav>
+  <div data-app id="main">加载中</div>
+  <script>
+    window.$docsify = {
+      el: '#main',
+      name: 'i人事前端规范',
+      //nameLink:'',
+      //repo: '',//github挂件
+      //coverpage: true,//封页
+      homepage: 'README.md',// 入口文件
+      loadSidebar: true,//侧边栏
+      loadSidebar: 'sidebar.md',
+      subMaxLevel: 2,//侧边栏最大级
+      auto2top: true,//切换页面后，是否自动跳转到页面顶部
+      themeColor: '#42b983',//主题颜色
+      executeScript: true//执行脚本
+    }
+  </script>
+  <script src="./dist/bundle.js"></script>
+  <!-- <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-css.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-javascript.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-haml.js"></script> -->
+</body>
+
+</html>

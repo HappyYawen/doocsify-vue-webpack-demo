@@ -1,0 +1,105 @@
+/* 框架布局微调 */
+.sidebar {
+  width: 200px;
+}
+.content {
+  left: 200px;
+}
+.sidebar li {
+  margin: 6px 0 6px 20px;
+}
+
+ifream{
+  width:100%;
+  border:none;
+}
+/* 公用 */
+.ml-s{
+  margin-left: 5px;
+}
+/* 颜色 */
+
+.color-style {
+  border: 0px;
+  width: 160px;
+  height: 60px;
+  font-family: "微软雅黑";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.color-item:not(:last-child){
+  margin-bottom:10px;
+}
+.color1 { background-color: #19aa8d; }
+.color2 { background-color: #159379; }
+.color3 { background-color: #159379; }
+.color4 {
+  background-color: rgba(25, 170, 141, 1);
+  color:rgba(255, 255, 255, 0.5);
+ }
+.color5 { 
+  background-color: #e8f7f4; 
+  color:#333333;
+}
+.color6 { 
+  background-color: #e5e6e7; 
+  color:#333333;
+}
+.color7 { 
+  background-color: #f2f2f2; 
+  color:#333333;
+}
+.color8 { background-color: #233646; }
+.color21 { background-color: #f8ac59; }
+.color22 { background-color: #f59121; }
+.color23 { background-color: #ed5565; }
+.color24 { background-color: #23cdcd; }
+.color31 { background-color: #666666; }
+.color32 { background-color: #333333; }
+.color33 { background-color: #cccccc; }
+.color34 { background-color: #999999; }
+.color35 { background-color: #19aa8d; }
+.color-desc{
+  padding-left:16px;
+  font-size:12px;
+}
+.inline{
+  display: block;
+  height:auto;
+}
+/* form表单 */
+.inline-mark{
+  width:980px;
+  height:24px;
+  background-color: rgba(242, 242, 242, 1);
+  color:#333;
+  text-align:center;
+  font-size: 0;
+}
+.inline-mark span{
+  display: inline-block;
+  height:100%;
+  line-height:22px;
+  vertical-align: top;
+  font-size: 12px;
+}
+.part1{
+  width:160px;
+}
+.part2{
+  width:20px;    
+  background-color: rgba(228, 228, 228, 1);
+}
+.part3{
+  width:380px;
+}
+.part4{
+  width:20px;
+  background-color: rgba(228, 228, 228, 1);
+}
+.part5{
+  width:400px;
+}

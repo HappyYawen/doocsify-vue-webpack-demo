@@ -1,0 +1,24 @@
+{
+  "name": "docsifydemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "docsify serve ."
+  },
+  "dependencies": {
+    "docsify-cli": "^3.0.1"
+  },
+  "author": "happy",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}

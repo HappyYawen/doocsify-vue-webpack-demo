@@ -1,0 +1,192 @@
+button:active,button:focus{
+  outline: none;
+}
+.text-theme{
+  color:#19aa8d;
+}
+/* 字体样式 */
+.ihr-font-12{
+  font-size:12px;
+}
+.ihr-font-12-bold{
+  font-size:12px;
+  font-weight: bold;
+}
+/* 按钮样式 */
+.ihr-btn{
+  height:22px;
+  line-height: 17px;
+  border-radius: 3px;
+  padding:3px 12px;
+  color:#666666;
+  font-size:12px;
+  cursor: pointer;
+  border:1px solid #ddd;
+  background-color:#fff;
+}
+.ihr-btn-oval {/*椭圆按钮*/
+  height:22px;
+  line-height: 17px;
+  border-radius: 22px;
+  padding:3px 12px;
+  color:#666666;
+  font-size:12px;
+  cursor: pointer;
+  border:1px solid #ddd;
+  background-color:#fff;
+}
+.ihr-btn:active{
+  -moz-box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.2) inset;
+  -webkit-box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.2) inset;
+  box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.2) inset;
+}
+.ihr-btn-theme{/*主题色*/
+  border:0;
+  color:#fff;
+  background-color:#19aa8d;
+}
+.ihr-btn-theme:hover{
+  background-color:#159379;
+}
+
+.ihr-btn-default:hover{
+  border-color:rgba(204, 204, 204, 1);
+  background-color: #f2f2f2;
+}
+
+.ihr-btn-assist{/* 次要颜色 */
+  border-color:#19aa8d;
+  color:#19aa8d;
+}
+.ihr-btn-assist:hover{
+  background-color:rgba(232, 247, 244, 1);
+}
+
+.ihr-btn-danger{/*红色*/
+  border:0;
+  color:#fff;
+  background-color:rgba(237, 85, 101, 1);
+}
+.ihr-btn-danger:hover{
+  background-color:rgba(233, 39, 58, 1);
+}
+
+.ihr-btn-warning{/*黄色*/
+  border:0;
+  color:#fff;
+  background-color:rgba(248, 172, 89, 1);
+}
+.ihr-btn-warning:hover{
+  background-color:rgba(245, 145, 33, 1);
+}
+.ihr-btn-link{/*链接*/
+  font-size:12px;
+  border:none;
+  background-color: transparent;
+  color:#19aa8d;
+}
+.ihr-btn-link:hover{
+  text-decoration: underline;
+}
+/* 禁用按钮 */
+.ihr-btn-theme-disabled{
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(25, 170, 141, 1);
+  border:none;
+}
+.ihr-btn-default-disabled{
+  border-color: rgba(229, 230, 231, 1);
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(102, 102, 102, 0.5);
+}
+.ihr-btn-assist-disabled{
+  border-color: rgba(25, 170, 141, 0.5);
+  color: rgba(25, 170, 141, 0.5);
+}
+.ihr-btn-danger-disabled{
+  border:none;
+  background-color: rgba(237, 85, 101, 1);
+  color: rgba(255, 255, 255, 0.5);
+}
+.ihr-btn-warning-disabled{
+  border:none;   
+  background-color: rgba(248, 172, 89, 1);
+  color: rgba(255, 255, 255, 0.5);
+}
+.ihr-btn-link-disabled{
+  font-size:12px;
+  border:none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: rgb(204, 204, 204);
+}
+.ihr-padding-28{
+  padding:3px 28px;
+}
+.ihr-btn-200{
+  height:30px;
+  width:200px;
+}
+/* 表单样式 */
+.form-inline{
+  width:980px;
+}
+input::-webkit-input-placeholder{
+  color: #ccc;
+}
+input:-ms-input-placeholder{
+  color: #ccc;
+}
+input:-moz-placeholder{
+  color: #ccc;
+}
+input::-moz-placeholder{
+	color: #ccc;
+}
+.ml-20{
+  margin-left:20px;
+}
+.mr-20{
+  margin-right:20px;
+}
+input{
+  height:22px;
+  font-size: 12px;
+  border:1px solid rgba(229, 230, 231, 1);
+  border-radius: 2px;
+  background-color: #fff;
+  color: #666666;
+  outline: none;
+}
+input:focus{
+  border-color: rgba(25, 170, 141, 1);
+}
+input[type='text']{
+  width:200px;
+}
+.ihr-label{
+  float:left;
+  font-size: 12px;
+  padding-top:3px;
+  width:160px;
+  text-align: right;
+}
+.ihr-input{
+  float:left;
+  padding:3px 5px;
+  width:200px;
+}
+.ihr-label-required{
+  float:left;
+  font-size: 12px;
+  padding-top:3px;
+  width:180px;
+  text-align: right;
+}
+.ihr-label-required span{
+  float:right;
+  color:#FF0000;
+  line-height:22px;
+  width:20px;
+  text-align: center;
+}

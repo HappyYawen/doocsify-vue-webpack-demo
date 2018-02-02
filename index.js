@@ -1,0 +1,7 @@
+require('./assets/css/vue.css')
+require('./assets/css/prism.css')
+require('./assets/css/common.css')
+require('./assets/js/docsify.min.js')
+require('./assets/js/prism-css.js')
+require('./assets/js/prism-javascript.js')
+require('./assets/js/prism-haml.js')
