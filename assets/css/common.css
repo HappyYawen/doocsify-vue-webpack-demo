@@ -1,3 +1,7 @@
+@charset "utf-8";
+@import "glyphicons.css";
+
+
 button:active,button:focus{
   outline: none;
 }
@@ -130,6 +134,7 @@ button:active,button:focus{
 /* 表单样式 */
 .form-inline{
   width:980px;
+  overflow: hidden;
 }
 input::-webkit-input-placeholder{
   color: #ccc;
@@ -161,8 +166,10 @@ input{
 input:focus{
   border-color: rgba(25, 170, 141, 1);
 }
-input[type='text']{
-  width:200px;
+.ihr-form-item{
+  float: left;
+  position: relative;
+  margin-bottom:4px;
 }
 .ihr-label{
   float:left;
@@ -172,9 +179,12 @@ input[type='text']{
   text-align: right;
 }
 .ihr-input{
+  width:200px;
   float:left;
   padding:3px 5px;
-  width:200px;
+}
+input.untext{
+  width:178px;
 }
 .ihr-label-required{
   float:left;
@@ -189,4 +199,24 @@ input[type='text']{
   line-height:22px;
   width:20px;
   text-align: center;
+}
+.ihr-form-item span.glyphicons{
+  position: absolute;
+  top:0;
+  right:-22px;
+  height:22px;
+  line-height: 20px;
+  width:22px;
+  color: #999;
+  font-size: 12px;
+  border: 1px solid rgba(229, 230, 231, 1);
+  border-left:0;
+}
+.ihr-form-item span.glyphicons:before{
+  width:22px;
+  padding:0;
+  text-align: center;
+}
+input:hover + span.glyphicons{
+  background-color: rgba(242,242,242,1);
 }

@@ -11,8 +11,37 @@
   <span class="part5">400px</span>
 </div>
 <form class="form-inline">
-  <label class="ihr-label mr-20">标准字段</label>
-  <input type="text" class="ihr-input" placeholder="请输入文字">
-  <label class="ihr-label-required ml-20">必填字段<span>*</span></label>
-  <input type="text" class="ihr-input" placeholder="请输入文字">
+  <div class="ihr-form-item">
+   <label class="ihr-label mr-20">标准字段</label>
+   <input type="text" class="ihr-input" placeholder="请输入文字">
+  </div>
+  <div class="ihr-form-item">
+   <label class="ihr-label-required ml-20">必填字段<span>*</span></label>
+   <input type="text" class="ihr-input untext" placeholder="请输入关键字">
+   <span class="glyphicons glyphicons-search"></span>
+  </div>
+  <div class="ihr-form-item">
+   <label class="ihr-label mr-20">日期选择</label>
+   <input type="text" class="ihr-input untext" placeholder="请输入关键字">
+   <span class="glyphicons glyphicons-calendar"></span>
+  </div>
 </form>
+
+```html
+<form class="form-inline">
+  <div class="ihr-form-item">
+   <label class="ihr-label mr-20">标准字段</label>
+   <input type="text" class="ihr-input" placeholder="请输入文字">
+  </div>
+  <div class="ihr-form-item">
+   <label class="ihr-label-required ml-20">必填字段<span>*</span></label>
+   <input type="text" class="ihr-input untext" placeholder="请输入关键字">
+   <span class="glyphicons glyphicons-search"></span>
+  </div>
+  <div class="ihr-form-item">
+   <label class="ihr-label mr-20">日期选择</label>
+   <input type="text" class="ihr-input untext" placeholder="请输入关键字">
+   <span class="glyphicons glyphicons-calendar"></span>
+  </div>
+</form>
+```
