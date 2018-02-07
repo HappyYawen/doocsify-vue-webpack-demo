@@ -106,3 +106,67 @@ ifream{
 .part5{
   width:400px;
 }
+.ihr-scrollbar-8::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+  background-color: transparent;
+  border-radius: 9px;
+}
+
+.ihr-scrollbar-8::-webkit-scrollbar-thumb {
+  background: rgba(204, 204, 204, 1);
+  border-radius: 9px;
+  background-clip: content-box;
+  border: 5px solid transparent
+}
+
+.ihr-scrollbar-8::-webkit-scrollbar-thumb:hover {
+  background: rgba(153, 153, 153, 1);
+  border-radius: 9px;
+  background-clip: content-box;
+  border: 5px solid transparent;
+}
+
+.ihr-scrollbar-8::-webkit-scrollbar-thumb:hover:active {
+  background: #19AA8D;
+  border-radius: 9px;
+  background-clip: content-box;
+  border: 5px solid transparent;
+}
+
+.ihr-scrollbar-3::-webkit-scrollbar:hover,
+.ihr-scrollbar-3::-webkit-scrollbar:hover:active {
+  background-color: transparent;
+}
+.ihr-scrollbar-3::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+  background-color: transparent;
+  border-radius: 9px;
+}
+
+.ihr-scrollbar-3::-webkit-scrollbar-thumb {
+  background: rgba(204, 204, 204, 1);
+  border-radius: 9px;
+  background-clip: content-box;
+  border: 7px solid transparent
+}
+
+.ihr-scrollbar-3::-webkit-scrollbar-thumb:hover {
+  background: rgba(153, 153, 153, 1);
+  border-radius: 9px;
+  background-clip: content-box;
+  border: 7px solid transparent;
+}
+
+.ihr-scrollbar-3::-webkit-scrollbar-thumb:hover:active {
+  background: #19AA8D;
+  border-radius: 9px;
+  background-clip: content-box;
+  border: 7px solid transparent;
+}
+
+.ihr-scrollbar-3::-webkit-scrollbar:hover,
+.ihr-scrollbar-3::-webkit-scrollbar:hover:active {
+  background-color: transparent;
+}
