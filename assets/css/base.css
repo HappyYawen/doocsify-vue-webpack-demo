@@ -8,7 +8,10 @@
 .sidebar li {
   margin: 6px 0 6px 20px;
 }
-
+.markdown-section hr{
+  padding-top:10px;
+  margin-bottom:10px;
+}
 ifream{
   width:100%;
   border:none;
